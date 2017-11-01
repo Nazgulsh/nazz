@@ -11,4 +11,22 @@
         <servlet-name>ParameterTest1Servlet</servlet-name>
         <url-pattern>/ParameterTest1Servlet</url-pattern>
     </servlet-mapping>
+
+    <servlet>
+        <servlet-name>CheckBoxTestServlet</servlet-name>
+        <servlet-class>lk.CheckBoxTestServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CheckBoxTestServlet</servlet-name>
+        <url-pattern>/CheckBoxTestServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>session</servlet-name>
+        <servlet-class>lk.session</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>session</servlet-name>
+        <url-pattern>/session</url-pattern>
+    </servlet-mapping>
     </web-app>
